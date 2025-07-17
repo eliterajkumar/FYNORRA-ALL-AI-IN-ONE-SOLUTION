@@ -1,0 +1,13 @@
+# Python dependencies
+fastapi==0.103.1
+uvicorn[standard]==0.23.2
+
+motor==3.3.2               # MongoDB async driver
+python-dotenv==1.0.0       # Load .env file
+
+pydantic==1.10.12
+passlib[bcrypt]==1.7.4     # Password hashing
+python-jose[cryptography]==3.3.0  # JWT token encoding/decoding
+
+# Optional (for CORS, logging etc.)
+aiofiles==23.2.1
